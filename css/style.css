@@ -1,0 +1,365 @@
+/* CSS */
+* {margin: 0; padding: 0; box-sizing: border-box; overflow: hidden;}
+
+body
+{
+	background: green;
+}
+
+div.middleTreetop
+{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border-radius: 100px;
+	position: absolute;
+	top: 156px;
+	left: 200px;
+}
+
+div.middleTrunk
+{
+	position: absolute;
+	width: 45px;
+	height: 350px;
+	background-color: brown;
+	border: 1px dotted black;
+	border-radius: 40px 35px 0 0;
+	top: 224px;
+	left: 228px;
+	z-index: -1;
+}
+
+div.leftTreetop
+{
+	width: 70px;
+	height: 70px;
+	background-color: blue;
+	border-radius: 100px;
+	position: absolute;
+	top: 232px;
+	left: 96px;
+}
+
+div.leftTrunk
+{
+	position: absolute;
+	width: 33px;
+	height: 155px;
+	border-left: 1px dotted black;
+	border-right: 1px dotted black;
+	background-color: brown;
+	top: 249px;
+	left: 170px;
+	transform: rotate(-44deg);
+	z-index: -1;
+}
+
+div.rightTreetop
+{
+	width: 85px;
+	height: 85px;
+	background-color: blue;
+	border-radius: 100px;
+	position: absolute;
+	top: 211px;
+	left: 292px;
+}
+
+div.rightTrunk
+{
+	position: absolute;
+	width: 33px;
+	height: 96px;
+	border-left: 1px dotted black;
+	border-right: 1px dotted black;
+	background-color: brown;
+	top: 272px;
+	left: 270px;
+	transform: rotate(35deg);
+	z-index: -1;
+}
+
+div.house
+{
+	width: 250px;
+	height: 275px;
+	position: absolute;
+	border: 3px solid black;
+	border-top: none;
+	background-color: rgb(235, 186, 52);
+	top: 269px;
+	left: 508px;
+}
+
+div.leftWindow
+{
+	width: 55px;
+	height: 55px;
+	position: relative;
+	background-color: rgb(52, 186, 235);
+	top: 30px;
+	left: 28px;
+	float: left;
+}
+
+div.vCrossbar
+{
+	position: relative;
+	width: 4px;
+	height: 55px;
+	margin: auto;
+	background-color: black;
+}
+
+div.hCrossbar
+{
+	position: relative;
+	width: 4px;
+	height: 55px;
+	margin: auto;
+	background-color: black;
+	transform: rotate(90deg);
+	top: -55px;
+}
+
+div.rightWindow
+{
+	width: 55px;
+	height: 55px;
+	position: relative;
+	background-color: rgb(52, 186, 235);
+	top: 30px;
+	left: 105px;
+	float: left;
+}
+
+div.roof
+{
+	position: absolute;
+	background-color: rgb(235, 67, 52);
+	width: 178px;
+	height: 178px;
+	transform: rotate(45deg);
+	top: 180px;
+	left: 544px;
+	z-index: -1;
+}
+
+div.chimney
+{
+	position: absolute;
+	width: 26px;
+	height: 55px;
+	background-color: rgb(92, 0, 0);
+	top: 170px;
+	left: 685px;
+	z-index: -2;
+}
+
+div.smokebackground
+{
+	position: absolute;
+	width: 55px;
+	height: 90px;
+	background-color: green;
+	top: 90px;
+	left: 671px;
+	z-index: -3;
+}
+
+div.smoke1
+{
+	position: relative;
+	height: 28px;
+	width: 28px;
+	border-radius: 100px;
+	background-color: rgb(135, 135, 135);
+	left: 0px;
+	top: 1px;	
+	z-index: 3;
+}
+
+div.smoke2
+{
+	position: relative;
+	height: 24px;
+	width: 24px;
+	border-radius: 100px;
+	background-color: rgb(135, 135, 135);
+	left: 13px;
+	top: -15px;	
+	z-index: 3;
+}
+
+div.smoke3
+{
+	position: relative;
+	height: 23px;
+	width: 23px;
+	border-radius: 100px;
+	background-color: rgb(135, 135, 135);
+	left: 10px;
+	top: -28px;	
+	z-index: 3;
+}
+
+div.smoke4
+{
+	position: relative;
+	height: 22px;
+	width: 22px;
+	border-radius: 100px;
+	background-color: rgb(135, 135, 135);
+	left: 13px;
+	top: -37px;	
+	z-index: 3;
+}
+
+div.smoke5
+{
+	position: relative;
+	height: 21px;
+	width: 21px;
+	border-radius: 100px;
+	background-color: rgb(135, 135, 135);
+	left: 19px;
+	top: -47px;	
+	z-index: 3;
+}
+
+div.smoke6
+{
+	position: relative;
+	height: 19px;
+	width: 19px;
+	border-radius: 100px;
+	background-color: rgb(135, 135, 135);
+	left: 19px;
+	top: -55px;	
+	z-index: 3;
+}
+
+div.door
+{
+	position: relative;
+	background-color: red;
+	width: 42px;
+	height: 84px;
+	top: 188px;
+	left: -8px;
+}
+
+div.doorknob
+{
+	position: relative;
+	height: 12px;
+	width: 12px;
+	border-radius: 100px;
+	background-color: black;
+	left: 27px;
+	top: 32px;
+}
+
+div.stoneStep1
+{
+	position: absolute;
+	width: 30px;
+	height: 28px;
+	border-radius: 60% 30% 22% 47%;
+	background-color: rgb(130, 107, 107);
+	top: 547px;
+	left: 617px;
+}
+
+div.stoneStep2
+{
+	position: absolute;
+	width: 30px;
+	height: 28px;
+	border-radius: 48% 74% 49% 47%;
+	background-color: rgb(130, 107, 107);
+	top: 581px;
+	left: 605px;
+}
+
+div.stoneStep3
+{
+	position: absolute;
+	width: 30px;
+	height: 28px;
+	border-radius: 32% 55% 73% 30%;
+	background-color: rgb(130, 107, 107);
+	top: 618px;
+	left: 620px;
+}
+
+div.stoneStep4
+{
+	position: absolute;
+	width: 30px;
+	height: 28px;
+	border-radius: 45% 33% 63% 53%;
+	background-color: rgb(130, 107, 107);
+	top: 650px;
+	left: 602px;
+}
+
+div.rock
+{
+	position: absolute;
+	width: 468px;
+	height: 400px;
+	background-color: rgb(87, 87, 87);
+	border-radius: 70% 50% 30% 10%;
+	left: 921px;
+	top: 202px;
+}
+
+div.crack1
+{
+	position: relative;
+	width: 9px;
+	height: 100px;
+	background-color: black;
+	border-radius: 63% 23% 34% 0%;
+	top: 115px;
+	left: 311px;
+	transform: rotate(62deg);
+}
+
+div.crack2
+{
+	position: relative;
+	width: 9px;
+	height: 100px;
+	background-color: black;
+	border-radius: 59% 28% 40% 0%;
+	top: 62px;
+	left: 307px;
+	transform: rotate(118deg);
+}
+
+div.crack3
+{
+	position: relative;
+	width: 8px;
+	height: 123px;
+	background-color: black;
+	border-radius: 59% 28% 40% 0%;
+	top: -95px;
+	left: 212px;
+	transform: rotate(-75deg);
+}
+
+div.crack4
+{
+	position: relative;
+	width: 7px;
+	height: 58px;
+	background-color: black;
+	border-radius: 72% 36% 44% 0%;
+	top: -158px;
+	left: 191px;
+	transform: rotate(-154deg);
+}
